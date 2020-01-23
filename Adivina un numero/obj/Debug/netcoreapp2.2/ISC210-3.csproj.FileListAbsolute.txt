@@ -1,0 +1,22 @@
+C:\Users\lealc\OneDrive\Documents\ISC210-3\bin\Debug\netcoreapp2.2\ISC210-3.deps.json
+C:\Users\lealc\OneDrive\Documents\ISC210-3\bin\Debug\netcoreapp2.2\ISC210-3.runtimeconfig.json
+C:\Users\lealc\OneDrive\Documents\ISC210-3\bin\Debug\netcoreapp2.2\ISC210-3.runtimeconfig.dev.json
+C:\Users\lealc\OneDrive\Documents\ISC210-3\bin\Debug\netcoreapp2.2\ISC210-3.dll
+C:\Users\lealc\OneDrive\Documents\ISC210-3\bin\Debug\netcoreapp2.2\ISC210-3.pdb
+C:\Users\lealc\OneDrive\Documents\ISC210-3\obj\Debug\netcoreapp2.2\ISC210-3.csprojAssemblyReference.cache
+C:\Users\lealc\OneDrive\Documents\ISC210-3\obj\Debug\netcoreapp2.2\ISC210-3.csproj.CoreCompileInputs.cache
+C:\Users\lealc\OneDrive\Documents\ISC210-3\obj\Debug\netcoreapp2.2\ISC210-3.AssemblyInfoInputs.cache
+C:\Users\lealc\OneDrive\Documents\ISC210-3\obj\Debug\netcoreapp2.2\ISC210-3.AssemblyInfo.cs
+C:\Users\lealc\OneDrive\Documents\ISC210-3\obj\Debug\netcoreapp2.2\ISC210-3.dll
+C:\Users\lealc\OneDrive\Documents\ISC210-3\obj\Debug\netcoreapp2.2\ISC210-3.pdb
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\bin\Debug\netcoreapp2.2\ISC210-3.deps.json
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\bin\Debug\netcoreapp2.2\ISC210-3.runtimeconfig.json
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\bin\Debug\netcoreapp2.2\ISC210-3.runtimeconfig.dev.json
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\bin\Debug\netcoreapp2.2\ISC210-3.dll
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\bin\Debug\netcoreapp2.2\ISC210-3.pdb
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\obj\Debug\netcoreapp2.2\ISC210-3.csprojAssemblyReference.cache
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\obj\Debug\netcoreapp2.2\ISC210-3.csproj.CoreCompileInputs.cache
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\obj\Debug\netcoreapp2.2\ISC210-3.AssemblyInfoInputs.cache
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\obj\Debug\netcoreapp2.2\ISC210-3.AssemblyInfo.cs
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\obj\Debug\netcoreapp2.2\ISC210-3.dll
+C:\Users\lealc\OneDrive\Documents\ISC210-3\ISC210-3\Adivina un numero\obj\Debug\netcoreapp2.2\ISC210-3.pdb
