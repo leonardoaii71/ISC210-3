@@ -22,7 +22,9 @@ public class DeadZoneController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("hit");
         Destroy(other.gameObject);
         gameController.SendMessage("DecrementLive");
+        AudioManager.Instace.PlaySoundEffect((AudioManager.SoundEffect.Explode));
     }
 }

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-     float speed = 10f;
+    const float LEFTLIMIT = -7.1f, RIGHTLIMIT = 7.1f;
+    float speed = 10f;
     Vector3 deltaPos;
-    const float LEFTLIMIT = -9.25f, RIGHTLIMIT = 9.1f;
-    GameManager gameManager;
+    
+    GameController gameController;
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = GameObject.Find("GlobalScripts").GetComponent<GameManager>();
-        
+        gameController = GameObject.Find("GlobalScripts").GetComponent<GameController>();
     }
 
     // Update is called once per frame
@@ -26,7 +26,8 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Destroy(other.gameObject);
-        gameManager.SendMessage("IncrementScore");
+        gameController.SendMessage("IncrementScore");
+        AudioManager.Instace.PlaySoundEffect((AudioManager.SoundEffect.hit));
     }
 
 }
