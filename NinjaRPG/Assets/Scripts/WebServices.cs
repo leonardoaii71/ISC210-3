@@ -7,7 +7,7 @@ using UnityEngine.Networking;
 [Serializable]
 public class Scores
 {
-    public string name;
+    public string username;
     public int score;
 }
 
@@ -26,13 +26,14 @@ public class WebServices : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire3"))
         {
+            
             Scores newScore = new Scores
             {
-                name = "Leo",
-                score = 1
+                username = "Leo",
+                score = 12
             };
 
-            StartCoroutine(PostRequest("http://localhost:8080/scores", JsonUtility.ToJson(newScore)));
+            StartCoroutine(PostRequest("http://localhost:8080/players", JsonUtility.ToJson(newScore)));
         }
     }
 
