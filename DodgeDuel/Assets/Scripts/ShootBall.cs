@@ -26,7 +26,7 @@ public class ShootBall : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) {
             //posición inicial cuando se presiona el botón del mouse
             posicionInicial = mousePosition;
-            launchline.SetStartPoint(transform.position);
+            launchline.SetStartPoint(new Vector3(transform.position.x, -3));
             //didClick = true;
         }
         else if (Input.GetMouseButton(0)) {

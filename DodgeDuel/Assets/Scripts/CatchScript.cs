@@ -7,7 +7,7 @@ public class CatchScript : MonoBehaviour
 
     Animator playerAnimator;
     private void Start() {
-        playerAnimator = transform.parent.GetComponent<Animator>();
+        playerAnimator = GameObject.Find("pivot").GetComponent<Animator>();
     }
 
 
@@ -17,7 +17,7 @@ public class CatchScript : MonoBehaviour
         other.transform.SetParent(transform);
         other.transform.localPosition = Vector3.zero; 
         playerAnimator.SetTrigger("Catched");
-        playerAnimator.pa
+        //playerAnimator.pa
         
     }
 }
