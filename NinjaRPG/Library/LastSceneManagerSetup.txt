@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Canioncito.unity
+- path: Assets/Scenes/Flapping.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

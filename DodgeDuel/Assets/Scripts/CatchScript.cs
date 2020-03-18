@@ -5,9 +5,20 @@ using UnityEngine;
 public class CatchScript : MonoBehaviour
 {
 
-    Animator playerAnimator;
+    Animator handsAnimator;
+    Animator EnemyAnimator;
+    public LineRenderer lineRenderer;
+    public GameController gameController;
+
+    private void Awake() {
+     
+        //lineRenderer = GameObject.Find("shooter").GetComponent<LineRenderer>();
+        
+    }
+
     private void Start() {
-        playerAnimator = GameObject.Find("pivot").GetComponent<Animator>();
+        handsAnimator = GameObject.Find("pivot").GetComponent<Animator>();
+        lineRenderer.enabled = false;
     }
 
 
@@ -15,9 +26,15 @@ public class CatchScript : MonoBehaviour
 
         other.attachedRigidbody.velocity = Vector3.zero;
         other.transform.SetParent(transform);
+        gameController.moving = false;
         other.transform.localPosition = Vector3.zero; 
-        playerAnimator.SetTrigger("Catched");
-        //playerAnimator.pa
-        
+        handsAnimator.SetTrigger("Catched");
+        StartCoroutine("Fade");
     }
+
+        IEnumerator Fade() {
+            lineRenderer.enabled = true;
+            yield return new WaitForSeconds(1.2f);
+            lineRenderer.enabled = false;    
+        }
 }

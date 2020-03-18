@@ -18,8 +18,6 @@ public class PlayerController : MonoBehaviour
                 Mathf.Clamp(transform.position.x, LeftLimit, RightLimit),
                 transform.position.y, 
                 transform.position.z);
-                
     }
-
 
 }
